@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://danielrc0.github.io/istate/
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,7 +143,7 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: Sites 
       description: The main servers are located here.
       closed: true
     - name: Empty Category
@@ -158,21 +158,15 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
+    - name: Google
+      category: Sites
+      link: https://google.com/
     - name: Backup Gateway
-      category: North Coast
+      category: Uncategorized
     - name: Website
       description: The web frontend for the application.
       category: Uncategorized
       link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
-
   # What date format to use?
   #
   # Hugo formatting docs:
@@ -292,7 +286,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Pagina de status para testes
 
   # Tabs on homepage
   # Uncomment to enable.
