@@ -31,3 +31,4 @@ Then push `git add -A; git commit -m "Update cState vX.X.X"; git push origin mas
 ## License
 
 MIT © Mantas Vilčinskas
+# istate
